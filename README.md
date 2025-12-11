@@ -14,13 +14,9 @@ This project applies machine learning techniques to predict cardiovascular disea
 
 The analysis is based on the **2015 Behavioral Risk Factor Surveillance System (BRFSS)** dataset and was completed as part of the **BA810 course project (Team B08)**.
 
----
-
 ## Project Motivation
 
 Cardiovascular disease is one of the leading causes of death worldwide, yet many cases are preventable through early lifestyle interventions. In many settings, clinical data are expensive or unavailable. This project explores whether **behavioral and demographic information alone** can meaningfully predict CVD risk, providing insight into scalable, population-level prevention strategies.
-
----
 
 ## Data Source
 
@@ -30,8 +26,6 @@ Cardiovascular disease is one of the leading causes of death worldwide, yet many
 * **Source:** Kaggle (CDC BRFSS)
 
 The BRFSS survey contains self-reported information on demographics, health behaviors, chronic conditions, and healthcare access. Variables with excessive missingness or irrelevant clinical content were removed to ensure data quality and feasibility.
-
----
 
 ## Feature Overview
 
@@ -44,7 +38,6 @@ The final feature set focuses on:
 
 The target variable is **coronary heart disease status**, converted into a binary classification outcome.
 
----
 
 ## Data Preparation
 
@@ -57,8 +50,6 @@ Key preprocessing steps include:
 * Imputation of missing values using original BRFSS “Don’t know / Refused” codes
 * One-hot encoding for all categorical features
 * Train–test split using an 80/20 ratio
-
----
 
 ## Modeling Approach
 
@@ -75,8 +66,6 @@ Models implemented:
 
 Cross-validation and randomized hyperparameter search were applied where appropriate.
 
----
-
 ## Key Results
 
 * **Best-performing models:** Decision Tree and Random Forest
@@ -87,16 +76,12 @@ Cross-validation and randomized hyperparameter search were applied where appropr
 
 Tree-based models performed best because they naturally capture nonlinear thresholds and interactions common in behavioral survey data.
 
----
-
 ## Key Insights
 
 * Lifestyle and demographic data alone can meaningfully identify high-risk individuals
 * Increasing model complexity does not necessarily improve performance
 * Recall–precision trade-offs are unavoidable in prevention-focused classification
 * Interpretability remains critical for trust and real-world adoption
-
----
 
 ## Limitations & Future Work
 

@@ -1,5 +1,5 @@
 # Predicting Cardiovascular Disease from Lifestyle Behaviors
-BA810 Machine Learning
+BA810- Supervised Machine Learning
 
 Boston University
 

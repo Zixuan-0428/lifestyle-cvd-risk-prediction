@@ -104,8 +104,9 @@ Tree-based models performed best because they naturally capture nonlinear thresh
 * Performance appears capped without richer behavioral depth
 * Future improvements could include:
 
-  * Behavioral intensity measures (e.g., pack-years, diet quality scores)
-  * Psychological and social factors (stress, depression, social support)
-  * Environmental context (air quality, walkability, food access)
+* Behavioral intensity measures (e.g., pack-years, diet quality scores)
+* Psychological and social factors (stress, depression, social support)
+* Environmental context (air quality, walkability, food access)
 
----
+## Slide Desk
+https://docs.google.com/presentation/d/1hKvk3FFPNLbpZ46c7d1ulr6QGg8kuRhD/edit?usp=sharing&ouid=106428496311069685275&rtpof=true&sd=true

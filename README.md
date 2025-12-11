@@ -1,13 +1,11 @@
 # Predicting Cardiovascular Disease from Lifestyle Behaviors
 BA810 Machine Learning
+
 Boston University
 
 ## Contributors
 
-* Zixiao Jiao
-* Junyi Liu
-* Hanchao Tang
-* Zixuan Zhu
+ Zixiao Jiao | Junyi Liu | Hanchao Tang |Zixuan Zhu
 
  ## Decription
  
@@ -15,7 +13,7 @@ This project applies machine learning techniques to predict cardiovascular disea
 
 The analysis is based on the **2015 Behavioral Risk Factor Surveillance System (BRFSS)** dataset and was completed as part of the **BA810 course project (Team B08)**.
 
-## Project Motivation
+## Motivation
 
 Cardiovascular disease is one of the leading causes of death worldwide, yet many cases are preventable through early lifestyle interventions. In many settings, clinical data are expensive or unavailable. This project explores whether **behavioral and demographic information alone** can meaningfully predict CVD risk, providing insight into scalable, population-level prevention strategies.
 
@@ -94,5 +92,5 @@ Tree-based models performed best because they naturally capture nonlinear thresh
 * Psychological and social factors (stress, depression, social support)
 * Environmental context (air quality, walkability, food access)
 
-## Slide Desk
+## Slide Deck
 https://docs.google.com/presentation/d/1hKvk3FFPNLbpZ46c7d1ulr6QGg8kuRhD/edit?usp=sharing&ouid=106428496311069685275&rtpof=true&sd=true

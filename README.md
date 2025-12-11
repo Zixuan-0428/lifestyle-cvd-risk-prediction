@@ -1,5 +1,6 @@
 # Predicting Cardiovascular Disease from Lifestyle Behaviors
-
+BA810 Machine Learning
+Boston University
 
 ## Contributors
 
